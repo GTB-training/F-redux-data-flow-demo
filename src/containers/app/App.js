@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Name from '../../components/Name';
 import Greeting from '../../components/Greeting';
-import './App.less';
+import './App.scss';
 
 class App extends Component {
   constructor(props) {
