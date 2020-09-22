@@ -1,0 +1,18 @@
+.Name {
+  border: 0.1rem solid darkgray;
+  padding: 1rem 1.5rem 1.8rem;
+
+  .name-input-title {
+    color: #eb7aad;
+    margin: 0.6rem 0;
+  }
+
+  .welcome-name-input {
+    box-sizing: border-box;
+    width: 100%;
+
+    background: lightgray;
+    padding: 0.5rem 0.2rem;
+    border: 0.1rem solid #eb7aad;
+  }
+}

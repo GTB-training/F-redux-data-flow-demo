@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import './Name.scss';
 
 class Name extends Component {
   render() {
     return (
-      <div>
-        Input your name, please!
-        <input type="text" onChange={this.props.handleNameChange} />
+      <div className="Name">
+        <h4 className="name-input-title">Please enter your name:</h4>
+        <input type="text" onChange={this.props.handleNameChange} className="welcome-name-input" />
       </div>
     );
   }

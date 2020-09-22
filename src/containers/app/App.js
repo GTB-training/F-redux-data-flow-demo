@@ -6,7 +6,7 @@ import './App.scss';
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = { name: 'Default Name' };
+    this.state = { name: 'my friend' };
   }
 
   handleNameChange = event => {
